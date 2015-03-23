@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezones">
+<!--         <item>Custom Offset</item>
+ -->        <item>(GMT-12:00) International Date Line West</item>
+        <item>(GMT-11:00) Midway Islands, Samoa</item>
+        <item>(GMT-10:00) Hawaii</item>
+        <item>(GMT-09:00) Alaska</item>
+        <item>(GMT-08:00) Pacific Time (US and Canada), Vancouver, Baja California</item>
+        <item>(GMT-07:00) Mountain Time (US and Canada), Chihuahua, La Paz</item>
+        <item>(GMT-06:00) Central Time (US and Canada), Central America, Mexico City</item>
+        <item>(GMT-05:00) Eastern Time (US and Canada), Panama, Lima, Quito, Bogota</item>
+        <item>(GMT-04:30) Caracas</item>
+        <item>(GMT-04:00) Atlantic Standard Time (Canada), La Paz, Manaus, Santiago</item>
+        <item>(GMT-03:30) Terranova</item>
+        <item>(GMT-03:00) Buenos Aires, Rio de Janeiro, Georgetown, Montevideo</item>
+        <item>(GMT-02:00) Mid-Atlantic</item>
+        <item>(GMT-01:00) Azores, Cape Verde</item>
+        <item>(GMT) Greenwich Mean Time (Casablanca, Dublin, Lisbon, London)</item>
+        <item>(GMT+01:00) Amsterdam, Berlin, Zurich, Rome, Stockholm, Vienna, Paris</item>
+        <item>(GMT+02:00) Athens, Istanbul, Cairo, Cape Town</item>
+        <item>(GMT+03:00) Bagdad, Kuwait, Moscow, St. Petersburg, Nairobi</item>
+        <item>(GMT+03:30) Tehran</item>
+        <item>(GMT+04:00) Abu Dhabi, Muscat, Baku, Yerevan, Seychelles, Caucasus</item>
+        <item>(GMT+04:30) Kabul</item>
+        <item>(GMT+05:00) Karachi, Islamabad, Ekateringburg</item>
+        <item>(GMT+05:30) Sri Jayawardenepura, Chennai, Kolhata, Mumbai, New Delhi</item>
+        <item>(GMT+05:45) Kathmandu</item>
+        <item>(GMT+06:00) Astana, Dhaka</item>
+        <item>(GMT+06:30) Rangoon</item>
+        <item>(GMT+07:00) Bangkok, Hanoi, Jakarta, Krasnoyarsk, Bali</item>
+        <item>(GMT+08:00) Beijing, Hong Kong, Kuala Lumpur, Singapore, Perth, Manila</item>
+        <item>(GMT+09:00) Osaka, Tokyo, Seoul, Sapporo, Yakutsk</item>
+        <item>(GMT+09:30) Darwin, Adelaide</item>
+        <item>(GMT+10:00) Sydney, Melbourne, Canberra, Brisbane, Guam, Port Moresby</item>
+        <item>(GMT+11:00) Magadan, Solomon Is., New Caledonia</item>
+        <item>(GMT+12:00) Auckland, Wellington, Fiji, Marshall Islands</item>
+        <item>(GMT+13:00) Nukualofa</item>
+    </string-array>
+    
+    
+    
+    
+    <string-array name="offsets">
+<!--         <item>custom</item>
+ -->       <item>GMT-12:00</item>
+        <item>GMT-11:00</item>
+        <item>GMT-10:00</item>
+        <item>GMT-09:00</item>
+        <item>GMT-08:00</item>
+        <item>GMT-07:00</item>
+        <item>GMT-06:00</item>
+        <item>GMT-05:00</item>
+        <item>GMT-04:30</item>
+        <item>GMT-04:00</item>
+        <item>GMT-03:30</item>
+        <item>GMT-03:00</item>
+        <item>GMT-02:00</item>
+        <item>GMT-01:00</item>
+        <item>GMT</item>
+        <item>GMT+01:00</item>
+        <item>GMT+02:00</item>
+        <item>GMT+03:00</item>
+        <item>GMT+03:30</item>
+        <item>GMT+04:00</item>
+        <item>GMT+04:30</item>
+        <item>GMT+05:00</item>
+        <item>GMT+05:30</item>
+        <item>GMT+05:45</item>
+        <item>GMT+06:00</item>
+        <item>GMT+06:30</item>
+        <item>GMT+07:00</item>
+        <item>GMT+08:00</item>
+        <item>GMT+09:00</item>
+        <item>GMT+09:30</item>
+        <item>GMT+10:00</item>
+        <item>GMT+11:00</item>
+        <item>GMT+12:00</item>
+        <item>GMT+13:00</item>
+    </string-array>
+    
+    <string-array name="dividers">
+        <item>|</item>
+        <item>/</item>
+        <item>+</item>
+        <item>-</item>
+        <item>_</item>
+        <item>&#160;</item>
+        </string-array>
+        
+    <string-array name="divider_names">
+        <item>|</item>
+        <item>/</item>
+        <item>+</item>
+        <item>-</item>
+        <item>_</item>
+        <item>Space</item>
+        </string-array>
+        
+    <string-array name ="ampm_names">
+        <item>am/pm</item>
+        <item>AM/PM</item>
+        <item>Do not show</item>
+    </string-array>
+    
+    <string-array name="ampm_values">
+        <item>minor</item>
+        <item>major</item>
+        <item>none</item>
+    </string-array>
+    
+</resources>

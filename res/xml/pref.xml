@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <ListPreference
+        android:defaultValue="GMT"
+        android:key="timezone"
+        android:entries="@array/timezones"
+        android:entryValues="@array/offsets"
+        android:title="Choose your Timezone"       />
+
+    <CheckBoxPreference
+        android:defaultValue="0"
+        android:key="DST"
+        android:title="Daylight Saving Time"
+        android:summary="Check if the chosen clock is in DST:"  />
+    <ListPreference 
+        android:defaultValue="|"
+        android:key="divider"
+        android:entries="@array/divider_names"
+        android:entryValues="@array/dividers"
+        android:title="Choose divider between the Clocks:"/>
+    
+    <CheckBoxPreference
+        android:key="24h"
+        android:defaultValue="true"
+        android:title="Use 24-hour format"
+        />
+    
+    <ListPreference
+        android:defaultValue="none"
+        android:key="am_pm"
+        android:title="AM/PM Style"
+        android:entries="@array/ampm_names"
+        android:entryValues="@array/ampm_values"
+        android:enabled="false" />
+    
+
+    
+    <!-- <com.jukka666.xdualstatusclock.TimePreference 
+ 			android:key="custom_offset" 
+ 			android:title="Select your custom GMT offset"
+ 			android:defaultValue="0"/>    --> 
+
+
+</PreferenceScreen>
